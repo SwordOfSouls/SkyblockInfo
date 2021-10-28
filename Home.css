@@ -190,6 +190,13 @@
   margin: 15px 0 0;
 }
 
+.u-section-1 .u-custom-html-4 {
+  height: auto;
+  min-height: 1286px;
+  width: 1141px;
+  margin: 15px auto 0;
+}
+
 .u-section-1 .u-tab-pane-3 {
   background-image: none;
 }
@@ -228,7 +235,7 @@
   font-family: MinecraftRegular-Bmg3;
 }
 
-.u-section-1 .u-custom-html-4 {
+.u-section-1 .u-custom-html-5 {
   width: 1140px;
   margin: 0 auto;
 }
@@ -315,13 +322,17 @@
     margin-left: 337px;
   }
 
+  .u-section-1 .u-custom-html-4 {
+    width: 940px;
+  }
+
   .u-section-1 .u-text-12 {
     font-family: MinecraftRegular-Bmg3;
     margin-top: 129px;
     margin-left: 337px;
   }
 
-  .u-section-1 .u-custom-html-4 {
+  .u-section-1 .u-custom-html-5 {
     width: 940px;
   }
 }
@@ -393,12 +404,16 @@
     margin-left: 253px;
   }
 
+  .u-section-1 .u-custom-html-4 {
+    width: 720px;
+  }
+
   .u-section-1 .u-text-12 {
     margin-top: 156px;
     margin-left: 253px;
   }
 
-  .u-section-1 .u-custom-html-4 {
+  .u-section-1 .u-custom-html-5 {
     width: 720px;
   }
 }
@@ -441,6 +456,10 @@
     margin-left: 199px;
   }
 
+  .u-section-1 .u-custom-html-4 {
+    width: 540px;
+  }
+
   .u-section-1 .u-text-12 {
     margin-top: -171px;
     margin-left: 199px;
@@ -450,7 +469,7 @@
     width: 540px;
   }
 
-  .u-section-1 .u-custom-html-4 {
+  .u-section-1 .u-custom-html-5 {
     width: 540px;
   }
 }
@@ -517,6 +536,10 @@
     margin-left: 122px;
   }
 
+  .u-section-1 .u-custom-html-4 {
+    width: 340px;
+  }
+
   .u-section-1 .u-text-12 {
     margin-top: -133px;
     margin-left: 122px;
@@ -526,7 +549,7 @@
     width: 340px;
   }
 
-  .u-section-1 .u-custom-html-4 {
+  .u-section-1 .u-custom-html-5 {
     width: 340px;
   }
 }@font-face {
