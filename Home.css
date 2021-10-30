@@ -1,11 +1,12 @@
  .u-section-1 {
-  min-height: 1287px;
+  min-height: 1288px;
 }
 
 .u-section-1 .u-tabs-1 {
-  min-height: 1276px;
+  min-height: 1294px;
   margin-top: 1px;
   margin-bottom: 0;
+  height: auto;
 }
 
 .u-section-1 .u-tab-link-1 {
@@ -237,14 +238,10 @@
 
 .u-section-1 .u-custom-html-4 {
   width: 1140px;
-  margin: 0 auto 1px;
+  margin: -8px auto 1px;
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 .u-tabs-1 {
-    height: auto;
-  }
-
   .u-section-1 .u-text-1 {
     font-family: MinecraftRegular-Bmg3;
     margin-top: 129px;
