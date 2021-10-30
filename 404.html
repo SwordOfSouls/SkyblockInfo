@@ -25,7 +25,71 @@
     <meta property="og:title" content="404">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
-  </head>
+  <script>
+    function gdprConfirmed() {
+        return true;
+    }
+    if (gdprConfirmed()) {
+    document.write("\
+    \
+    <!-- Google Analytics -->\
+    <gascript async src=\"https://www.googletagmanager.com/gtag/js?id=G-19L62GQ0Y5\"></gascript>\
+    <gascript>\
+        window.dataLayer = window.dataLayer || [];\
+        function gtag(){dataLayer.push(arguments);}\
+        gtag('js', new Date());\
+        gtag('config', 'G-19L62GQ0Y5');\
+    </gascript>\
+    <!-- End Google Analytics -->\
+    ".replace(/gascript/g, 'script'));
+    }
+    </script><script src="https://www.google.com/recaptcha/api.js?render=6Lf4VQIdAAAAADTYZ2LvOxt12CAePfYzTcN639xS"></script>
+    <script>
+( function( grecaptcha, sitekey, actions ) {
+
+	var recaptcha = {
+
+		execute: function( action ) {
+			grecaptcha.execute(
+				sitekey,
+				{ action: action }
+			).then( function( token ) {
+				var forms = document.getElementsByTagName( 'form' );
+
+				for ( var i = 0; i < forms.length; i++ ) {
+					var fields = forms[ i ].getElementsByTagName( 'input' );
+
+					for ( var j = 0; j < fields.length; j++ ) {
+						var field = fields[ j ];
+
+						if ( 'recaptchaResponse' === field.getAttribute( 'name' ) ) {
+							field.setAttribute( 'value', token );
+							break;
+						}
+					}
+				}
+			} );
+		},
+
+		executeContact: function() {
+			recaptcha.execute( actions[ 'contact' ] );
+		}
+	};
+
+	grecaptcha.ready(
+		recaptcha.executeContact
+	);
+
+	document.addEventListener( 'change',
+		recaptcha.executeContact, false
+	);
+} )(
+	grecaptcha,
+	'6Lf4VQIdAAAAADTYZ2LvOxt12CAePfYzTcN639xS',
+	{"contact":"contact"}
+);
+    </script>
+</head>
   <body class="u-body"><header class="u-clearfix u-header u-palette-1-light-3 u-header" id="sec-8c83"><div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-container-style u-group u-palette-1-base u-radius-50 u-shape-round u-group-1">
           <div class="u-container-layout u-container-layout-1">
