@@ -113,4 +113,14 @@
   font-style: normal;
   font-weight: 400;
   src: url(fonts/MinecraftRegular-Bmg3.otf);
+}@font-face {
+  font-family: 'MinecraftBold-nMK1';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/MinecraftBold-nMK1.otf);
+}@font-face {
+  font-family: 'MinecraftRegular-Bmg3-1';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/MinecraftRegular-Bmg3-1.otf);
 }
