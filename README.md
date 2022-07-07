@@ -1,3 +1,5 @@
 # SkyblockInfo
-TEMPORARILY CLOSED AS I DIDN'T HAVE ENOUGH TIME TO FINISH THE UPDATE
-WILL REOPEN TOMORROW
+Closed. 
+
+- OLD
+A stat site for monitoring useful hypixel Skyblock into.
